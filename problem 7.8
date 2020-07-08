@@ -1,0 +1,33 @@
+/* 
+      DATA : 2020/07/08
+*/
+#include <stdio.h>
+int main(void)
+{
+    char a,b,j;
+    int num,numa,numb;
+    
+    char a[] = "cola is acid!!!";
+    char b[] = "granit is hard!";
+    
+    printf("now ,remember a positive interger and a negative interger/n");
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",a);
+    scanf("%d",&numa);
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",b);
+    scanf("%d",&numb);
+    num = numa + numb;
+    printf("%d",num);
+    
+    j = a, a = b, b = j;
+    
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",a);
+    scanf("%d",&numa);
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",b);
+    scanf("%d",&numb);
+    num = numa + numb;
+    printf("%d",num);
+    
+    printf("why the number is the same?");
+    
+    return 0;
+}
