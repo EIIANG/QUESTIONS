@@ -4,30 +4,34 @@
 #include <stdio.h>
 int main(void)
 {
-    char a,b,j;
     int num,numa,numb;
-    
+
     char a[] = "cola is acid!!!";
     char b[] = "granit is hard!";
-    
-    printf("now ,remember a positive interger and a negative interger/n");
-    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",a);
+    char c[] = "cola is acid!!!";
+    char d[] = "granit is hard!";
+
+    printf("now ,remember a positive interger and a negative interger");
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:",a);
     scanf("%d",&numa);
-    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",b);
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:",b);
     scanf("%d",&numb);
     num = numa + numb;
     printf("%d",num);
-    
-    j = a, a = b, b = j;
-    
-    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",a);
+    printf("the sum of the two number is %d",num);
+
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:",c);
     scanf("%d",&numa);
-    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:/n",b);
+    printf("if %s is ture,please input the positive interger.if not,please input the negative interger:",d);
     scanf("%d",&numb);
     num = numa + numb;
     printf("%d",num);
-    
+    printf("the sum of the two number is %d",num);
     printf("why the number is the same?");
-    
+
     return 0;
 }
+
+
+
+
